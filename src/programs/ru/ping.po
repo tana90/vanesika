@@ -1,0 +1,108 @@
+#
+# Visopsys
+# Copyright (C) 1998-2020 J. Andrew McLaughlin
+#
+# Russian translation by Liss <liss8608@list.ru>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ping\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-14 01:32+0100\n"
+"PO-Revision-Date: 2014-08-13 22:35+0800\n"
+"Last-Translator: Liss <liss8608@list.ru>\n"
+"Language-Team: liss <liss21@ya.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#: ping.c:66
+msgid "Ping"
+msgstr ""
+
+#: ping.c:100
+msgid "Error"
+msgstr "Ошибка"
+
+#: ping.c:108
+#, fuzzy, c-format
+msgid ""
+"usage:\n"
+"%s [-T] <address | hostname>"
+msgstr ""
+"использование:\n"
+"%s [-T] <адрес | хост>\n"
+
+#: ping.c:181
+#, c-format
+msgid "%d bytes from %d.%d.%d.%d: icmp_seq=%d ttl=%d time=%llu ms\n"
+msgstr "%d байт от %d.%d.%d.%d: icmp_seq=%d ttl=%d время=%llu ms\n"
+
+#: ping.c:288
+msgid "Stop"
+msgstr "Стоп"
+
+#: ping.c:354
+#, c-format
+msgid "Unknown option '%c'"
+msgstr ""
+
+#: ping.c:363
+msgid "Networking is not currently enabled"
+msgstr "Сеть не запущена"
+
+#: ping.c:376
+msgid "Enter Address"
+msgstr "Введите адрес"
+
+#: ping.c:377
+msgid "Enter the network address to ping:"
+msgstr "Введите адрес для пинга:"
+
+#: ping.c:398
+msgid "Couldn't determine destination address"
+msgstr ""
+
+#: ping.c:414
+msgid "Error opening network connection"
+msgstr "Ошибка открытия сетевого соединения"
+
+#: ping.c:418
+#, c-format
+msgid "Ping %d.%d.%d.%d %d(%d) bytes of data"
+msgstr "Ping %d.%d.%d.%d %d(%d) байт данных"
+
+#: ping.c:432
+msgid "Error setting signal handler"
+msgstr ""
+
+#: ping.c:445
+msgid "Error starting response thread"
+msgstr ""
+
+#: ping.c:453 ping.c:465
+msgid "Memory allocation error"
+msgstr "Ошибка распределения памяти"
+
+#: ping.c:479
+msgid "Error pinging host"
+msgstr "Ошибка пингования хоста"
+
+#: ping.c:497
+#, c-format
+msgid ""
+"\n"
+"--- %d.%d.%d.%d ping statistics ---\n"
+msgstr ""
+
+#: ping.c:499
+#, c-format
+msgid "%d packets transmitted, %d received, %d%% packet loss, time %llums\n"
+msgstr "%d пакетов отправлено, %d получено, %d%% потеряно, время %llums\n"
+
+#: ping.c:503
+#, c-format
+msgid "rtt min/avg/max = %llu/%llu/%llu ms\n"
+msgstr ""
